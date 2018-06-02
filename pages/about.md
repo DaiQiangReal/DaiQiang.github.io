@@ -1,19 +1,18 @@
----
+﻿---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
-comments: true
+description: 学以致用，知行合一
+keywords: 代强, Qiang Dai, 个人博客，IT
+comments: false
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
-
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
-
+我是代强，
+生而学，学而用，用然优，
+坚信学以致用，知行合一的道理，
+丰富知识，思考见解，
+快乐生活每一天！
 ## 联系
 
 {% for website in site.data.social %}
