@@ -3,8 +3,8 @@
 # ---------------- #
 baseurl:
 date_format: "ordinal"
-title: 代强的个人IT学习记录博客
-subtitle: "学习改变人生"
+title: 代强的个人IT学习博客
+subtitle: "学以致用，知行合一"
 description: "代强的个人博客"
 keywords: 代强, Qiang Dai, 个人博客，IT
 timezone: Asia/zhengzhou
