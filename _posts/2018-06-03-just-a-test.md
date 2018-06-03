@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: 测试博文
-categories: [cate1, cate2]
+categories: [其他]
 description: 测试博文
 keywords: 测试, 博文
 ---
