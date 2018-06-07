@@ -7,6 +7,7 @@ description: markdown基本语法的tips
 
 keywords: markdown，tips，语法
 ---
+一些关于markdown基本语法的小tips。\(^o^)/
 
 #markdown基本语法的tips
 ---
