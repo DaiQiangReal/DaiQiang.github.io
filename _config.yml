@@ -91,7 +91,12 @@ comments_provider: gitalk
 disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
-
+gitment:
+    owner: DaiQiangReal
+    repo: blog-comments
+    oauth:
+        client_id: 54b793abdfd852a795b3
+        client_secret: 803c4801e32adea7d55a7a93d9e0a6cb8dda2205
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: DaiQiangReal
