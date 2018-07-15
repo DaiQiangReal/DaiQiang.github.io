@@ -13,7 +13,7 @@ keywords: 百度网盘, 不限速，BaiduPCS-Go，baidupcs
 
 ## 1.启动环境配置 
 Android系统本质上是建立在Linux内核的一个特殊Linux发行版。本质上和Ubuntu等广为人知的Linux发行版并无区别，但是经过Google的修改，Android系统上并没有通常存在于Linux发行版上的终端模拟器。但是我们的教程所使用的程序代码是建立在命令行交互界面（CLI）上的，为了使用程序，我们必须在Android系统上安装终端模拟器。
-	erminal-Emulator NeoTerm 均可，下载安装。
+	建议使用NeoTerm 即可，下载安装。
 
 ## 2.下载程序，并移动到指定位置	
 下载对应平台的BaiduPCS-GO
@@ -23,7 +23,7 @@ Android系统本质上是建立在Linux内核的一个特殊Linux发行版。本
 	
 1.终端输入 
 ```pwd```
-查看终端所在目录
+查看终端所在目录（建议使用NeoTerm终端，否则无法正确找到终端模拟器所在安装目录，无法继续操作）
 这个目录就是终端默认目录，终端模拟器对此目录具有完全执行权限。
 ![enter image description here](https://s1.ax1x.com/2018/07/15/PMqjbV.jpg)
 2. 复制baidupcs到这个目录
