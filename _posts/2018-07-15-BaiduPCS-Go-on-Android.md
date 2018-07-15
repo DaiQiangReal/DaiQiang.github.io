@@ -5,17 +5,17 @@ categories: [教程]
 description: 安卓系统启动终端不限速下载百度网盘
 keywords: 百度网盘, 不限速，BaiduPCS-Go，baidupcs
 ---
-#安卓系统启动终端不限速下载百度网盘
+# 安卓系统启动终端不限速下载百度网盘
 
 百度网盘是个好东西，网络上有许多资源都以百度网盘的形式分享。但百度网盘因为特殊原因，对非会员用户限制速度，在非p2p资源的情况下，下载速度往往在100KB/s以下，p2p下载也会被限速。下面将介绍在非root通用Android系统上使用百度pcs接口，不限速下载。方法windows, Linux，Mac os, Freebsd, Android, ios,主流全平台通用。
         
 `程序开源代码在文末分享，BaiduPCS-Go版权为iikira所有，感谢其对开源社区的无私奉献。`
 
-##1.启动环境配置 
+## 1.启动环境配置 
 Android系统本质上是建立在Linux内核的一个特殊Linux发行版。本质上和Ubuntu等广为人知的Linux发行版并无区别，但是经过Google的修改，Android系统上并没有通常存在于Linux发行版上的终端模拟器。但是我们的教程所使用的程序代码是建立在命令行交互界面（CLI）上的，为了使用程序，我们必须在Android系统上安装终端模拟器。
 	erminal-Emulator NeoTerm 均可，下载安装。
 
-##2.下载程序，并移动到指定位置	
+## 2.下载程序，并移动到指定位置	
 下载对应平台的BaiduPCS-GO
 	
 如果我们通过 ./baidupcs(如果你的BaiduPCS-GO可执行程序文件名是这个)，通常会出现Permissi Denied，如果我们尝试chmod +x baidupcs 也会提示权限不足。这是因为未获取root权限的安卓系统对每个程序的权限进行了严格的限制，这其中也包括我们的终端模拟器，我们不能随便修改以及执行文件。
@@ -41,7 +41,7 @@ Android系统本质上是建立在Linux内核的一个特殊Linux发行版。本
 <br>
 <br>
 <br>
-##在其他平台教程通用，适当变通即可
+## 在其他平台教程通用，适当变通即可
 [BaiduPCS-Go下载地址](https://github.com/iikira/BaiduPCS-Go)
 
 `BaiduPCS-Go版权所有为程序原作者iikira。本教程仅为在非root安卓上的使用指导`
