@@ -30,11 +30,11 @@ Android系统本质上是建立在Linux内核的一个特殊Linux发行版。本
 ```cp /sdcard/baidupcs /data/data/io.neoterm/files/home```
 (源目录为安卓内部存储目录，因为我是事先将BaiduPCS-Go重命名为baidupcs并移动到了内部存储，方便操作。复制到的目录为刚才pwd命令显示的目录,自己根据输出替换)
 ![enter image description here](https://s1.ax1x.com/2018/07/15/PMqxET.jpg)
-##3. 赋予执行权限
+## 3. 赋予执行权限
 ```chmod 777 baidupcs```
 ![enter image description here](https://s1.ax1x.com/2018/07/15/PMqzUU.jpg)
 赋予baidupcs可执行权限。
-##4.执行程序
+## 4.执行程序
 ```./baidupcs```
 ![enter image description here](https://s1.ax1x.com/2018/07/15/PMLS5F.jpg)
 
