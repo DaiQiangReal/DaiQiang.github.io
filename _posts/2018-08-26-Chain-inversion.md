@@ -1,25 +1,15 @@
 ---
-
 layout: post
-
 title: 采用栈结构，递归实现链表的反转
-
 categories: [算法]
-
 description: 采用栈结构，递归实现链表的反转
-
 keywords: 栈，递归，链表，反转链表
-
-
 ---
-
 #采用栈结构，递归实现链表的反转
-
-
-
 ##需要反转链表原结构
 
-```public class ListNode {
+```java
+public class ListNode {
     int val;
     ListNode next = null;
 
@@ -31,7 +21,6 @@ keywords: 栈，递归，链表，反转链表
 ###代码
 
 ```java
-
 import java.util.Stack;
 public class ListNode {
     int val;
@@ -73,3 +62,4 @@ public class Solution {
         
     }//采用栈结构，调用核心反转函数代码
 }
+```
