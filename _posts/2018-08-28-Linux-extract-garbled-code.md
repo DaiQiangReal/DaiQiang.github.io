@@ -17,18 +17,14 @@ keywords: Linux, 乱码， Mac， unzip， 解压密码
 ubuntu 等debian系Linux采用
 
 ```shell
-
 sudo apt install unar
-
 ```
 redhat系Mac系自行查找安装unar命令
 
 使用
 
 ```shell
-
 unar filename
-
 ```
 即可解压
 自动判断编码格式
